@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,14 @@
     <title>Bolsa de Valores</title>
 </head>
 <body>
-    
-    <script src="script.js" defer></script>
+    <main>
+        <h1>Cotações</h1>
+        <label for="inome">Tag da empresa:</label>
+        <input type="text" name="Nome" id="inome">
+        <button type="submit" onclick="puxar()">Buscar</button>
+        <h1 id="empr"></h1>
+        <h2 id="valor"></h2>
+        <script src="script.js" defer></script>
+    </main>
 </body>
 </html>

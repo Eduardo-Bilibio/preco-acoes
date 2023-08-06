@@ -1,1 +1,34 @@
-@cahrset "UTF-8"
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/15643208-conceito-de-economia-e-financas-estatisticas-de-investimento-de-negocios-financeiros-com-casticais-do-mercado-de-acoes-e-grafico-de-barras-em-fundo-azul-vetor.jpg');
+    background-size: cover cover;
+    background-repeat: no-repeat;
+}
+
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    margin-top: 20vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input {
+    width: 100%;
+}
